@@ -49,7 +49,7 @@ When the **WM\_GETTEXTLENGTH** message is sent, the [**DefWindowProc**](https://
 
 To obtain the exact length of the text, use the [**WM\_GETTEXT**](wm-gettext.md), [**LB\_GETTEXT**](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx), or [**CB\_GETLBTEXT**](https://msdn.microsoft.com/library/Bb775862(v=VS.85).aspx) messages, or the [**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx) function.
 
-Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a static bitmap or static icon controlc, does not return a string value. Instead, it returns zero.
+Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a static bitmap or static icon control, does not return a string value. Instead, it returns zero.
 
 ## Requirements
 
